@@ -1,10 +1,10 @@
 /**
- * Defines ng-kit.cached-resource.createResource
+ * Defines ng-kit.cached-resource.createCachedResource
  */
 (function(angular) {
     'use strict';
     angular.module('ng-kit.cached-resource')
-    .factory('createResource', function(
+    .factory('createCachedResource', function(
         $http,
         $q,
         localStorageService
